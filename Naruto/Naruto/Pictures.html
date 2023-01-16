@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naruto's Portfolio </title>
+  <link rel="icon" href="/Users/rob_mets/Desktop/Web Development/Naruto/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="/Users/rob_mets/Desktop/Web Development/Naruto/CSS/style.css">
+</head>
+<body>
+  <div class="x" ><a href="/Users/rob_mets/Desktop/Web Development/Naruto/index.html"><img src="/Users/rob_mets/Desktop/Web Development/Naruto/5852cd5c58215f0354495f67.png" width="160px" height="100px" alt="My Image" /></a></div>
+    <ul>
+    <li><button class="ContactMe" type="button"><a href="/Users/rob_mets/Desktop/Web Development/Naruto/Contact.html">Contact Me</a></button></li>
+    <li><button class="Pictures" type="button"><a href="/Users/rob_mets/Desktop/Web Development/Naruto/Pictures.html">Pictures</a></button></li>
+    <li><button class="About" type="button"><a href="/Users/rob_mets/Desktop/Web Development/Naruto/About.html">About</a></button></li>
+    </ul>
+  <h1>Now you will see my journey from a little unpopular child to the Hokage of my Village, the srongest ninja in my Universe and Rob's <span class="Hero">Number 1 hero.</span></h1>
+    
+      <div class="w3-content-w3-display-container">
+        <img class="Slides" src="/Users/rob_mets/Desktop/Web Development/Naruto/e357452bfc2cbb3805dac780ec45d86e.png" width="400px" height="400px">
+        <img class="Slides" src="/Users/rob_mets/Desktop/Web Development/Naruto/Uzumaki_naruto_part1.png" width="400px" height="400px">
+        <img class="Slides" src="/Users/rob_mets/Desktop/Web Development/Naruto/d85f8e912492243e5733d2e60edc7c82.png" width="400px" height="400px">
+        <img class="Slides" src="/Users/rob_mets/Desktop/Web Development/Naruto/ebf2f4de5641fb23edc099a88744a8b6.png" width="400px" height="400px">
+        <img class="Slides" src="/Users/rob_mets/Desktop/Web Development/Naruto/hok.png" width="400px" height="400px">
+      
+        <button class="buttonleft" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="buttonleft" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("Slides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+</body>
+</html>

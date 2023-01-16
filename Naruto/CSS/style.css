@@ -1,0 +1,151 @@
+body {
+    background-image: url("/Users/rob_mets/Desktop/Web Development/Naruto/wallpapersden.com_hokage-naruto-4k_4098x2304.jpg");
+    background-size: cover;
+   }
+
+   .About {
+    background-color: burlywood;
+    border: none;
+    border-radius: 13%;
+    color: black;
+    padding: 15px 15px;
+    text-align: right;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+
+  .Pictures {
+    background-color: burlywood;
+    border: none;
+    border-radius: 13%;
+    color: black;
+    padding: 15px 15px;
+    text-align: right;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+
+  .ContactMe {
+    background-color: burlywood;
+    border: none;
+    border-radius: 13%;
+    color: black;
+    padding: 15px 15px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    padding: 0px;
+  }
+
+  .x {
+    position:absolute;
+    top: 0;
+    left: 0;
+  }
+
+  h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .AboutMe {
+    text-align: center;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .NarutoUzumaki {
+    color: blanchedalmond;
+  }
+
+  hr {
+    background-color: none;
+    border-style:none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+}
+
+h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Social {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Slides {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Hero {
+  color: rgb(61, 110, 234);
+}
+
+.Aboutext {
+  text-align: center;
+  font-size: 110%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(196, 255, 208);
+}
+
+.Name {
+color: red;
+}
+ /*
+   .About { 
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;  
+ }
+.Pictures { 
+    text-align: right;
+  }
+.ContactMe { 
+    text-align: right;
+  }
+
+    
